@@ -14,7 +14,10 @@ No server is needed. The recordings are in `media/` and publish with the site.
 |---|---|
 | `index.html` | The page shell. |
 | `styles.css` | Evolving Ground palette (light and dark follow the device), Lato, motion. |
-| `app.js` | Screens, navigation, player, password page. |
+| `app.js` | Screens, navigation, player (remembers each recording's spot), password page. |
+| `icon.svg`, `favicon-32.png`, `apple-touch-icon.png` | Browser tab and home-screen icons. |
+| `artwork.png` | Lock-screen and Control Center artwork while a recording plays. |
+| `og.png` | Image in the link preview when the address is texted or shared. |
 | `content.js` | All page copy and chapter times (seconds). Generated from the package's `class-content.json`. |
 | `media.config.js` | Where each recording lives. The only file to change when the media moves. |
 | `media/` | The four class recordings, byte-identical copies of the reviewed files. |

@@ -100,6 +100,7 @@ window.CONTENT = {
   "practices": [
     {
       "haiku": null,
+      "haikuBy": null,
       "id": "settling-breath",
       "n": 1,
       "title": "Settling and Sensing Breath",
@@ -141,6 +142,7 @@ window.CONTENT = {
     },
     {
       "haiku": null,
+      "haikuBy": null,
       "id": "sounding-resonance",
       "n": 2,
       "title": "Sounding and Resonance",
@@ -191,6 +193,7 @@ window.CONTENT = {
         "A frog jumps into the pond, splash!",
         "Silence again."
       ],
+      "haikuBy": "Matsuo Bashō",
       "id": "haiku-play",
       "n": 3,
       "title": "Haiku Exploration",

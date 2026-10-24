@@ -36,11 +36,13 @@ replay = {
 
 # From "03 - Haiku Exploration - Outline.md" ("Haiku used in class").
 HAIKU = {'haiku-play': ['An old silent pond…', 'A frog jumps into the pond, splash!', 'Silence again.']}
+HAIKU_BY = {'haiku-play': 'Matsuo Bashō'}   # shown under the poem
 
 practices = []
 for i, p in enumerate(c['practices']):
     practices.append({
         'haiku': HAIKU.get(p['id']),
+        'haikuBy': HAIKU_BY.get(p['id']),
         'id': p['id'],
         'n': i + 1,
         'title': p['title'],
